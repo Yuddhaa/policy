@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Yuddhaa Policies</title>
+    <meta name="description" content="Privacy policies for apps and services built by Yuddhaa." />
+
+    <link rel="icon" type="image/png" href="/icons/yuddhaa.jpg">
+
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #111827;
+            --text: #e5e7eb;
+            --muted: #9ca3af;
+            --accent: #22c55e;
+            --border: #1f2933;
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 48px 20px 80px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        header img {
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            margin-top: 4px;
+        }
+
+        .intro {
+            margin: 24px 0 32px;
+            color: #d1d5db;
+            font-size: 16px;
+        }
+
+        .apps {
+            display: grid;
+            gap: 16px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 18px 20px;
+            transition: border-color 0.15s, transform 0.12s;
+        }
+
+        .card:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        .app-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .links a {
+            color: var(--accent);
+            text-decoration: none;
+            margin-right: 14px;
+            font-size: 14px;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding-top: 18px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="/icons/yuddhaa.jpg" alt="Yuddhaa logo" />
+            <div>
+                <h1>Yuddhaa Policies</h1>
+                <div class="subtitle">Privacy & legal documents for Yuddhaa apps</div>
+            </div>
+        </header>
+
+        <div class="intro">
+            This website hosts privacy policies and legal documents for applications and
+            services developed by Yuddhaa. Each app has its own dedicated policy page
+            describing what data is collected and how it is used.
+        </div>
+
+        <div class="apps">
+            <div class="card">
+                <div class="app-title">Sarva</div>
+                <div class="links">
+                    <a href="https://sarva.yuddhaa.com">Website</a>
+                    <a href="https://www.privacypolicies.com/live/e89cd985-6a1f-44d5-a29c-6a2daf48ec2f">Privacy
+                        Policy</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="app-title">Ledgerit</div>
+                <div class="links">
+                    <a href="https://ledgerit.yuddhaa.com">Website</a>
+                    <a href="/ledgerit">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            © 2026 Yuddhaa. All rights reserved.
+        </footer>
+    </div>
+</body>
+
+</html>
